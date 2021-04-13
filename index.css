@@ -13,24 +13,26 @@ background: linear-gradient;
   box-sizing:border-box;
 }
 
-body{
-  color:#444;
-  font-family:Roboto;
+body {
+  color: #444;
+  font-family: Roboto;
   padding: 50px;
-  background: linear-gradient(to bottom right,#67b26f,#4ca2cd);
+  background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
   height: 100vh;
-  display:flex;
-  align-items:center;
+  display: flex;
+  /* Cross Axis */
+  align-items: center; 
+  /* Main Axis */
   justify-content: center;
 }
 
 .pizza {
   max-width: 800px;
-  box-shadow: 0 30px 80px 10px rgba(0,0,0,.2);
-  display:flex;
+  border-radius: 4px;
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
   align-items: stretch;
   overflow: hidden;
-  
 }
 
 .pizza__img{
